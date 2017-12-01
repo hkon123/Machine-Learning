@@ -75,14 +75,14 @@ trainIn = scaler.transform(trainIn)
 testIn = scaler.transform(testIn)
 #---------------------------
 '''
-
+'''
 #------standardize data---------
 scaler = StandardScaler()
 scaler.fit(trainIn)
 trainIn = scaler.transform(trainIn)
 testIn = scaler.transform(testIn)
 #--------------------------------
-
+'''
 #------------------------------------------------------------------------------
 
 
